@@ -50,3 +50,7 @@ AGENTS.md
 environment.yml
 
 own.md
+
+scripts/build_unified_graph.py
+
+src/finalrag/graphing/
