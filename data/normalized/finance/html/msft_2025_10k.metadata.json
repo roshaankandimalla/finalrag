@@ -1,0 +1,19 @@
+{
+  "document_id": "f5ce30bc-9c7a-5455-a357-6b25faa55bdf",
+  "domain": "finance",
+  "source_type": "html",
+  "source_name": "msft_2025_10k",
+  "element_count": 905,
+  "element_counts": {
+    "text": 820,
+    "table": 85
+  },
+  "ignored_counts": {
+    "duplicate_content": 238
+  },
+  "image_decisions": {},
+  "outputs": {
+    "elements_path": "data/normalized/finance/html/msft_2025_10k.elements.jsonl",
+    "image_manifest_path": "data/normalized/finance/html/msft_2025_10k.image_manifest.jsonl"
+  }
+}

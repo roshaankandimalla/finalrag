@@ -1,0 +1,23 @@
+services:
+  db:
+    image: pgvector/pgvector:pg16
+    container_name: finalrag-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-finalrag}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?Set POSTGRES_PASSWORD in .env}
+      POSTGRES_DB: ${POSTGRES_DB:-finalrag}
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+    volumes:
+      - finalrag_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test:
+        - CMD-SHELL
+        - pg_isready -U ${POSTGRES_USER:-finalrag} -d ${POSTGRES_DB:-finalrag}
+      interval: 5s
+      timeout: 5s
+      retries: 10
+    restart: unless-stopped
+
+volumes:
+  finalrag_postgres_data:

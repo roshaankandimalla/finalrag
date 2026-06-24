@@ -1,0 +1,25 @@
+{
+  "document_id": "a2a3bfe8-a077-5c37-a524-c22253012579",
+  "domain": "finance",
+  "source_type": "pdf",
+  "source_name": "ril_annual_report_2025",
+  "element_count": 4435,
+  "element_counts": {
+    "image": 360,
+    "text": 2870,
+    "heading": 825,
+    "table": 380
+  },
+  "ignored_counts": {
+    "header": 141,
+    "footer": 143
+  },
+  "image_decisions": {
+    "keep": 360,
+    "reject": 461
+  },
+  "outputs": {
+    "elements_path": "data/normalized/finance/pdf/ril_annual_report_2025.elements.jsonl",
+    "image_manifest_path": "data/normalized/finance/pdf/ril_annual_report_2025.image_manifest.jsonl"
+  }
+}

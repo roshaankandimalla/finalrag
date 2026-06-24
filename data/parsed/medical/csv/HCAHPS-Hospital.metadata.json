@@ -1,0 +1,22 @@
+{
+  "document_id": "a0141e40-f383-5350-90f3-5630aaa25b5e",
+  "domain": "medical",
+  "source_type": "csv",
+  "file_name": "HCAHPS-Hospital.csv",
+  "row_count": 325856,
+  "hospital_profile_count": 4792,
+  "hospital_category_doc_count": 28752,
+  "categories": [
+    "nurse_communication",
+    "doctor_communication",
+    "medication_communication",
+    "discharge_information",
+    "hospital_environment",
+    "overall_rating_and_recommendation"
+  ],
+  "outputs": {
+    "metadata_path": "data/parsed/medical/csv/HCAHPS-Hospital.metadata.json",
+    "hospital_profiles_path": "data/parsed/medical/csv/HCAHPS-Hospital.hospital_profiles.jsonl",
+    "hospital_category_docs_path": "data/parsed/medical/csv/HCAHPS-Hospital.hospital_category_docs.jsonl"
+  }
+}

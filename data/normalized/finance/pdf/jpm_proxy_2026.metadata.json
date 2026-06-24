@@ -1,0 +1,25 @@
+{
+  "document_id": "976dd862-6688-5980-a132-ba12e3bd8608",
+  "domain": "finance",
+  "source_type": "pdf",
+  "source_name": "jpm_proxy_2026",
+  "element_count": 1639,
+  "element_counts": {
+    "image": 112,
+    "heading": 301,
+    "text": 1129,
+    "table": 97
+  },
+  "ignored_counts": {
+    "header": 105,
+    "footer": 106
+  },
+  "image_decisions": {
+    "keep": 112,
+    "reject": 244
+  },
+  "outputs": {
+    "elements_path": "data/normalized/finance/pdf/jpm_proxy_2026.elements.jsonl",
+    "image_manifest_path": "data/normalized/finance/pdf/jpm_proxy_2026.image_manifest.jsonl"
+  }
+}

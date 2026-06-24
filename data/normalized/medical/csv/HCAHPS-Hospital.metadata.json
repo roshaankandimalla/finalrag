@@ -1,0 +1,12 @@
+{
+  "domain": "medical",
+  "source_type": "csv",
+  "source_name": "HCAHPS-Hospital",
+  "element_count": 28752,
+  "element_counts": {
+    "table": 28752
+  },
+  "outputs": {
+    "elements_path": "data/normalized/medical/csv/HCAHPS-Hospital.elements.jsonl"
+  }
+}

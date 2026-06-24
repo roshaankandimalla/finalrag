@@ -1,0 +1,43 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 4792,
+  "child_count": 28752,
+  "chunk_modalities": {
+    "text+table": 28752
+  },
+  "child_token_stats": {
+    "min": 266,
+    "average": 332.62,
+    "p95": 391,
+    "max": 404
+  },
+  "parent_token_stats": {
+    "min": 48,
+    "average": 55.73,
+    "p95": 61,
+    "max": 71
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 28752,
+  "tables_split": 0,
+  "table_split_strategies": {},
+  "image_assignment_methods": {},
+  "weighted_images_assigned_same_page": 0,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "a0141e40-f383-5350-90f3-5630aaa25b5e",
+  "domain": "medical",
+  "source_type": "csv",
+  "source_name": "HCAHPS-Hospital",
+  "outputs": {
+    "parents_path": "data/chunks/medical/csv/HCAHPS-Hospital.parents.jsonl",
+    "children_path": "data/chunks/medical/csv/HCAHPS-Hospital.children.jsonl"
+  }
+}

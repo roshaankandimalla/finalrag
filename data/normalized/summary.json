@@ -1,0 +1,203 @@
+{
+  "documents": [
+    {
+      "document_id": "f5ce30bc-9c7a-5455-a357-6b25faa55bdf",
+      "domain": "finance",
+      "source_type": "html",
+      "source_name": "msft_2025_10k",
+      "element_count": 905,
+      "element_counts": {
+        "text": 820,
+        "table": 85
+      },
+      "ignored_counts": {
+        "duplicate_content": 238
+      },
+      "image_decisions": {},
+      "outputs": {
+        "elements_path": "data/normalized/finance/html/msft_2025_10k.elements.jsonl",
+        "image_manifest_path": "data/normalized/finance/html/msft_2025_10k.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "976dd862-6688-5980-a132-ba12e3bd8608",
+      "domain": "finance",
+      "source_type": "pdf",
+      "source_name": "jpm_proxy_2026",
+      "element_count": 1639,
+      "element_counts": {
+        "image": 112,
+        "heading": 301,
+        "text": 1129,
+        "table": 97
+      },
+      "ignored_counts": {
+        "header": 105,
+        "footer": 106
+      },
+      "image_decisions": {
+        "keep": 112,
+        "reject": 244
+      },
+      "outputs": {
+        "elements_path": "data/normalized/finance/pdf/jpm_proxy_2026.elements.jsonl",
+        "image_manifest_path": "data/normalized/finance/pdf/jpm_proxy_2026.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "a2a3bfe8-a077-5c37-a524-c22253012579",
+      "domain": "finance",
+      "source_type": "pdf",
+      "source_name": "ril_annual_report_2025",
+      "element_count": 4435,
+      "element_counts": {
+        "image": 360,
+        "text": 2870,
+        "heading": 825,
+        "table": 380
+      },
+      "ignored_counts": {
+        "header": 141,
+        "footer": 143
+      },
+      "image_decisions": {
+        "keep": 360,
+        "reject": 461
+      },
+      "outputs": {
+        "elements_path": "data/normalized/finance/pdf/ril_annual_report_2025.elements.jsonl",
+        "image_manifest_path": "data/normalized/finance/pdf/ril_annual_report_2025.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "70173b03-a291-5ca6-93b0-2ebc88ca3830",
+      "domain": "legal",
+      "source_type": "pdf",
+      "source_name": "gdpr",
+      "element_count": 856,
+      "element_counts": {
+        "heading": 86,
+        "text": 770
+      },
+      "ignored_counts": {
+        "footer": 117
+      },
+      "image_decisions": {},
+      "outputs": {
+        "elements_path": "data/normalized/legal/pdf/gdpr.elements.jsonl",
+        "image_manifest_path": "data/normalized/legal/pdf/gdpr.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "946906ce-aa3d-5158-91c9-aac5899ed1b5",
+      "domain": "legal",
+      "source_type": "pdf",
+      "source_name": "RBI",
+      "element_count": 3307,
+      "element_counts": {
+        "heading": 491,
+        "text": 2455,
+        "table": 221,
+        "image": 140
+      },
+      "ignored_counts": {
+        "footer": 328,
+        "header": 23
+      },
+      "image_decisions": {
+        "reject": 47,
+        "keep": 140
+      },
+      "outputs": {
+        "elements_path": "data/normalized/legal/pdf/RBI.elements.jsonl",
+        "image_manifest_path": "data/normalized/legal/pdf/RBI.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "16dc9a04-7233-5473-bc43-8d9b0c49d12e",
+      "domain": "legal",
+      "source_type": "pdf",
+      "source_name": "sebi_circular_2026",
+      "element_count": 1599,
+      "element_counts": {
+        "text": 1186,
+        "heading": 127,
+        "image": 105,
+        "table": 181
+      },
+      "ignored_counts": {
+        "footer": 141,
+        "header": 22
+      },
+      "image_decisions": {
+        "reject": 328,
+        "keep": 105
+      },
+      "outputs": {
+        "elements_path": "data/normalized/legal/pdf/sebi_circular_2026.elements.jsonl",
+        "image_manifest_path": "data/normalized/legal/pdf/sebi_circular_2026.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "e99d8d01-b295-5ffb-893e-864d96e45176",
+      "domain": "medical",
+      "source_type": "html",
+      "source_name": "dailymed_ozempic_prescribing_label",
+      "element_count": 276,
+      "element_counts": {
+        "text": 40,
+        "heading": 234,
+        "table": 2
+      },
+      "ignored_counts": {
+        "navigation_text": 4,
+        "duplicate_image": 7,
+        "duplicate_content": 30
+      },
+      "image_decisions": {
+        "reject": 5
+      },
+      "outputs": {
+        "elements_path": "data/normalized/medical/html/dailymed_ozempic_prescribing_label.elements.jsonl",
+        "image_manifest_path": "data/normalized/medical/html/dailymed_ozempic_prescribing_label.image_manifest.jsonl"
+      }
+    },
+    {
+      "document_id": "e1e88096-801f-5fdb-8400-695ceff04e0b",
+      "domain": "medical",
+      "source_type": "pdf",
+      "source_name": "united_healthcare_policy",
+      "element_count": 3019,
+      "element_counts": {
+        "text": 1328,
+        "heading": 851,
+        "image": 378,
+        "table": 462
+      },
+      "ignored_counts": {
+        "footer": 353,
+        "header": 343
+      },
+      "image_decisions": {
+        "reject": 503,
+        "keep": 378
+      },
+      "outputs": {
+        "elements_path": "data/normalized/medical/pdf/united_healthcare_policy.elements.jsonl",
+        "image_manifest_path": "data/normalized/medical/pdf/united_healthcare_policy.image_manifest.jsonl"
+      }
+    },
+    {
+      "domain": "medical",
+      "source_type": "csv",
+      "source_name": "HCAHPS-Hospital",
+      "element_count": 28752,
+      "element_counts": {
+        "table": 28752
+      },
+      "outputs": {
+        "elements_path": "data/normalized/medical/csv/HCAHPS-Hospital.elements.jsonl"
+      }
+    }
+  ]
+}

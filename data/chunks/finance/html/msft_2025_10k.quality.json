@@ -1,0 +1,46 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 42,
+  "child_count": 352,
+  "chunk_modalities": {
+    "text": 168,
+    "table": 184
+  },
+  "child_token_stats": {
+    "min": 25,
+    "average": 361.03,
+    "p95": 547,
+    "max": 576
+  },
+  "parent_token_stats": {
+    "min": 2195,
+    "average": 2837.36,
+    "p95": 2997,
+    "max": 3001
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 184,
+  "tables_split": 43,
+  "table_split_strategies": {
+    "markdown_rows": 142
+  },
+  "image_assignment_methods": {},
+  "weighted_images_assigned_same_page": 0,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "f5ce30bc-9c7a-5455-a357-6b25faa55bdf",
+  "domain": "finance",
+  "source_type": "html",
+  "source_name": "msft_2025_10k",
+  "outputs": {
+    "parents_path": "data/chunks/finance/html/msft_2025_10k.parents.jsonl",
+    "children_path": "data/chunks/finance/html/msft_2025_10k.children.jsonl"
+  }
+}

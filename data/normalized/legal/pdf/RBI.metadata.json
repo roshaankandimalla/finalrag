@@ -1,0 +1,25 @@
+{
+  "document_id": "946906ce-aa3d-5158-91c9-aac5899ed1b5",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "RBI",
+  "element_count": 3307,
+  "element_counts": {
+    "heading": 491,
+    "text": 2455,
+    "table": 221,
+    "image": 140
+  },
+  "ignored_counts": {
+    "footer": 328,
+    "header": 23
+  },
+  "image_decisions": {
+    "reject": 47,
+    "keep": 140
+  },
+  "outputs": {
+    "elements_path": "data/normalized/legal/pdf/RBI.elements.jsonl",
+    "image_manifest_path": "data/normalized/legal/pdf/RBI.image_manifest.jsonl"
+  }
+}

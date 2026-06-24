@@ -1,0 +1,52 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 148,
+  "child_count": 496,
+  "chunk_modalities": {
+    "text": 187,
+    "table+image": 67,
+    "table": 216,
+    "text+image": 26
+  },
+  "child_token_stats": {
+    "min": 31,
+    "average": 340.23,
+    "p95": 557,
+    "max": 590
+  },
+  "parent_token_stats": {
+    "min": 7,
+    "average": 1281.12,
+    "p95": 2928,
+    "max": 2987
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 283,
+  "tables_split": 75,
+  "table_split_strategies": {
+    "markdown_rows": 141,
+    "structured_rows": 49
+  },
+  "image_assignment_methods": {
+    "weighted_geometry": 99,
+    "contextual_fallback": 6
+  },
+  "weighted_images_assigned_same_page": 99,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "16dc9a04-7233-5473-bc43-8d9b0c49d12e",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "sebi_circular_2026",
+  "outputs": {
+    "parents_path": "data/chunks/legal/pdf/sebi_circular_2026.parents.jsonl",
+    "children_path": "data/chunks/legal/pdf/sebi_circular_2026.children.jsonl"
+  }
+}

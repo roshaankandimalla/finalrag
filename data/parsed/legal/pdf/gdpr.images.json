@@ -1,0 +1,26 @@
+{
+  "job": {
+    "id": "pjb-nbx0pki9lqgoalob6u33p4dq10xu",
+    "project_id": "81fdc159-6402-4bf9-a6ff-ae4f1afb3f86",
+    "status": "COMPLETED",
+    "created_at": "2026-06-10T19:57:35.886233Z",
+    "error_message": null,
+    "name": "gdpr.pdf",
+    "tier": "agentic",
+    "updated_at": "2026-06-10T19:59:43.234967Z"
+  },
+  "images_content_metadata": {
+    "images": [],
+    "total_count": 0
+  },
+  "items": null,
+  "job_metadata": null,
+  "markdown": null,
+  "markdown_full": null,
+  "metadata": null,
+  "raw_parameters": null,
+  "result_content_metadata": null,
+  "text": null,
+  "text_full": null,
+  "debug": null
+}

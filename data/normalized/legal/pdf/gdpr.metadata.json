@@ -1,0 +1,19 @@
+{
+  "document_id": "70173b03-a291-5ca6-93b0-2ebc88ca3830",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "gdpr",
+  "element_count": 856,
+  "element_counts": {
+    "heading": 86,
+    "text": 770
+  },
+  "ignored_counts": {
+    "footer": 117
+  },
+  "image_decisions": {},
+  "outputs": {
+    "elements_path": "data/normalized/legal/pdf/gdpr.elements.jsonl",
+    "image_manifest_path": "data/normalized/legal/pdf/gdpr.image_manifest.jsonl"
+  }
+}

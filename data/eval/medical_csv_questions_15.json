@@ -1,0 +1,92 @@
+[
+  {
+    "id": "medical-csv-southeast-health-profile-surveys-response-rate",
+    "question": "How many completed HCAHPS surveys did Southeast Health Medical Center have, what was its survey response rate, and what survey period does the CSV report cover?",
+    "reference_answer": "Southeast Health Medical Center had 952 completed surveys and a 17% survey response rate. The survey period was July 1, 2024 to June 30, 2025.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-marshall-profile-surveys-location",
+    "question": "For Marshall Medical Centers, what is the facility ID, where is it located, and how many completed surveys were reported?",
+    "reference_answer": "Marshall Medical Centers has Facility ID 010005. It is located in Boaz, Alabama, and the CSV reports 705 completed surveys.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-north-alabama-profile-surveys-response-rate",
+    "question": "What completed survey count and survey response rate are reported for North Alabama Medical Center?",
+    "reference_answer": "North Alabama Medical Center reported 1,814 completed surveys and an 18% survey response rate.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-st-vincents-east-profile-location-response-rate",
+    "question": "Where is St. Vincent's East located, and what survey response rate is reported for it?",
+    "reference_answer": "St. Vincent's East is located in Birmingham, Alabama, at 50 Medical Park East Drive, ZIP code 35235. Its survey response rate was 21%.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-mizell-profile-surveys-response-rate",
+    "question": "For Mizell Memorial Hospital, what are the completed survey count and survey response rate?",
+    "reference_answer": "Mizell Memorial Hospital reported 97 completed surveys and a 17% survey response rate.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-southeast-health-nurse-vs-doctor-star-rating",
+    "question": "What nurse communication and doctor communication star ratings did Southeast Health Medical Center receive?",
+    "reference_answer": "Southeast Health Medical Center received a 3-star rating for nurse communication and a 4-star rating for doctor communication.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-southeast-health-nurse-doctor-always-communicated",
+    "question": "At Southeast Health Medical Center, what percentage of patients said nurses always communicated well, and what percentage said doctors always communicated well?",
+    "reference_answer": "At Southeast Health Medical Center, 76% of patients reported that nurses always communicated well, and 80% reported that doctors always communicated well.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-southeast-health-medication-side-effects",
+    "question": "For Southeast Health Medical Center, what percentage of patients said staff always explained medicines before giving them, and what percentage said staff always discussed possible side effects?",
+    "reference_answer": "For Southeast Health Medical Center, 60% of patients said staff always explained medicines before giving them, and 45% said staff always discussed possible side effects.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-southeast-health-discharge-home-symptoms",
+    "question": "For Southeast Health Medical Center, what percentage of patients said they received recovery-at-home discharge information, and what percentage said they received written information about symptoms to watch for?",
+    "reference_answer": "For Southeast Health Medical Center, 87% of patients said they were given information about recovery at home, and 90% said they received written information about possible symptoms to watch for after discharge.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-southeast-health-overall-rating-recommendation",
+    "question": "What was Southeast Health Medical Center's summary star rating, what percentage of patients gave it a 9 or 10 overall rating, and what percentage would definitely recommend it?",
+    "reference_answer": "Southeast Health Medical Center had a 4-star summary rating. 73% of patients gave it a 9 or 10 overall rating, and 77% would definitely recommend it.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-marshall-nurse-overall-recommendation",
+    "question": "For Marshall Medical Centers, what were the nurse communication star rating, the summary star rating, and the percentage of patients who would definitely recommend the hospital?",
+    "reference_answer": "Marshall Medical Centers had a 3-star nurse communication rating and a 3-star summary rating. 63% of patients would definitely recommend the hospital.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-north-alabama-nurse-overall-rating",
+    "question": "For North Alabama Medical Center, what was the nurse communication star rating, and what percentage of patients gave the hospital a 9 or 10 overall rating?",
+    "reference_answer": "North Alabama Medical Center had a 2-star nurse communication rating, and 61% of patients gave the hospital a 9 or 10 overall rating.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-mizell-overall-rating-not-available",
+    "question": "For Mizell Memorial Hospital, what percentage of patients gave the hospital a 9 or 10 overall rating, what percentage would definitely recommend it, and was a summary star rating available?",
+    "reference_answer": "For Mizell Memorial Hospital, 63% of patients gave the hospital a 9 or 10 overall rating, and 68% would definitely recommend it. The summary star rating was not available.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-st-vincents-medication-communication",
+    "question": "For St. Vincent's East, what was the communication-about-medicines star rating, and what percentage of patients said staff sometimes or never discussed possible side effects?",
+    "reference_answer": "St. Vincent's East had a 2-star communication-about-medicines rating. 36% of patients said staff sometimes or never discussed possible side effects.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-csv-st-vincents-environment-overall",
+    "question": "For St. Vincent's East, what were the cleanliness and quietness star ratings, and what percentage of patients gave the hospital a 9 or 10 overall rating?",
+    "reference_answer": "St. Vincent's East had a 2-star cleanliness rating and a 3-star quietness rating. 70% of patients gave the hospital a 9 or 10 overall rating.",
+    "domain": "medical"
+  }
+]

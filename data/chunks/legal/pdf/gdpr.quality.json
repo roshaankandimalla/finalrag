@@ -1,0 +1,43 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 80,
+  "child_count": 181,
+  "chunk_modalities": {
+    "text": 181
+  },
+  "child_token_stats": {
+    "min": 59,
+    "average": 407.22,
+    "p95": 575,
+    "max": 593
+  },
+  "parent_token_stats": {
+    "min": 35,
+    "average": 863.51,
+    "p95": 2846,
+    "max": 2971
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 0,
+  "tables_split": 0,
+  "table_split_strategies": {},
+  "image_assignment_methods": {},
+  "weighted_images_assigned_same_page": 0,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "70173b03-a291-5ca6-93b0-2ebc88ca3830",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "gdpr",
+  "outputs": {
+    "parents_path": "data/chunks/legal/pdf/gdpr.parents.jsonl",
+    "children_path": "data/chunks/legal/pdf/gdpr.children.jsonl"
+  }
+}

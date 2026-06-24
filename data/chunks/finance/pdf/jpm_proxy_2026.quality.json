@@ -1,0 +1,51 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 265,
+  "child_count": 457,
+  "chunk_modalities": {
+    "text+image": 23,
+    "text": 314,
+    "table": 62,
+    "table+image": 58
+  },
+  "child_token_stats": {
+    "min": 24,
+    "average": 230.96,
+    "p95": 533,
+    "max": 578
+  },
+  "parent_token_stats": {
+    "min": 3,
+    "average": 440.31,
+    "p95": 1627,
+    "max": 2936
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 120,
+  "tables_split": 22,
+  "table_split_strategies": {
+    "markdown_rows": 45
+  },
+  "image_assignment_methods": {
+    "contextual_fallback": 2,
+    "weighted_geometry": 108
+  },
+  "weighted_images_assigned_same_page": 108,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "976dd862-6688-5980-a132-ba12e3bd8608",
+  "domain": "finance",
+  "source_type": "pdf",
+  "source_name": "jpm_proxy_2026",
+  "outputs": {
+    "parents_path": "data/chunks/finance/pdf/jpm_proxy_2026.parents.jsonl",
+    "children_path": "data/chunks/finance/pdf/jpm_proxy_2026.children.jsonl"
+  }
+}

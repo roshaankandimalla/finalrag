@@ -1,0 +1,52 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 434,
+  "child_count": 870,
+  "chunk_modalities": {
+    "text": 586,
+    "table+image": 121,
+    "table": 148,
+    "text+image": 15
+  },
+  "child_token_stats": {
+    "min": 20,
+    "average": 288.92,
+    "p95": 558,
+    "max": 587
+  },
+  "parent_token_stats": {
+    "min": 13,
+    "average": 610.42,
+    "p95": 2643,
+    "max": 2991
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 269,
+  "tables_split": 45,
+  "table_split_strategies": {
+    "markdown_rows": 104,
+    "structured_rows": 2
+  },
+  "image_assignment_methods": {
+    "weighted_geometry": 137,
+    "contextual_fallback": 3
+  },
+  "weighted_images_assigned_same_page": 137,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "946906ce-aa3d-5158-91c9-aac5899ed1b5",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "RBI",
+  "outputs": {
+    "parents_path": "data/chunks/legal/pdf/RBI.parents.jsonl",
+    "children_path": "data/chunks/legal/pdf/RBI.children.jsonl"
+  }
+}

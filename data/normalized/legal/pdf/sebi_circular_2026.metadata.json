@@ -1,0 +1,25 @@
+{
+  "document_id": "16dc9a04-7233-5473-bc43-8d9b0c49d12e",
+  "domain": "legal",
+  "source_type": "pdf",
+  "source_name": "sebi_circular_2026",
+  "element_count": 1599,
+  "element_counts": {
+    "text": 1186,
+    "heading": 127,
+    "image": 105,
+    "table": 181
+  },
+  "ignored_counts": {
+    "footer": 141,
+    "header": 22
+  },
+  "image_decisions": {
+    "reject": 328,
+    "keep": 105
+  },
+  "outputs": {
+    "elements_path": "data/normalized/legal/pdf/sebi_circular_2026.elements.jsonl",
+    "image_manifest_path": "data/normalized/legal/pdf/sebi_circular_2026.image_manifest.jsonl"
+  }
+}

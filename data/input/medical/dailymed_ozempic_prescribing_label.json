@@ -1,0 +1,23 @@
+[
+  {
+    "name": "dailymed_ozempic_prescribing_label",
+    "domain": "medical",
+    "source_type": "html",
+    "parser_used": "firecrawl",
+    "firecrawl_mode": "crawl",
+    "firecrawl_config": {
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?lang=en&setid=adec4fd2-6858-4c99-91d4-531f5f2a2d79",
+      "limit": 10,
+      "maxDiscoveryDepth": 1,
+      "sitemap": "skip",
+      "allowExternalLinks": false,
+      "allowSubdomains": false,
+      "crawlEntireDomain": false,
+      "ignoreQueryParameters": false,
+      "scrapeOptions": {
+        "formats": ["markdown", "html"],
+        "onlyMainContent": false
+      }
+    }
+  }
+]

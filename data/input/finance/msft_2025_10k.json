@@ -1,0 +1,23 @@
+[
+  {
+    "name": "msft_2025_10k",
+    "domain": "finance",
+    "source_type": "html",
+    "parser_used": "firecrawl",
+    "firecrawl_mode": "crawl",
+    "firecrawl_config": {
+      "url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+      "limit": 10,
+      "maxDiscoveryDepth": 1,
+      "sitemap": "skip",
+      "allowExternalLinks": false,
+      "allowSubdomains": false,
+      "crawlEntireDomain": false,
+      "ignoreQueryParameters": true,
+      "scrapeOptions": {
+        "formats": ["markdown", "html"],
+        "onlyMainContent": false
+      }
+    }
+  }
+]

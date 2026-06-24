@@ -1,0 +1,25 @@
+{
+  "document_id": "e1e88096-801f-5fdb-8400-695ceff04e0b",
+  "domain": "medical",
+  "source_type": "pdf",
+  "source_name": "united_healthcare_policy",
+  "element_count": 3019,
+  "element_counts": {
+    "text": 1328,
+    "heading": 851,
+    "image": 378,
+    "table": 462
+  },
+  "ignored_counts": {
+    "footer": 353,
+    "header": 343
+  },
+  "image_decisions": {
+    "reject": 503,
+    "keep": 378
+  },
+  "outputs": {
+    "elements_path": "data/normalized/medical/pdf/united_healthcare_policy.elements.jsonl",
+    "image_manifest_path": "data/normalized/medical/pdf/united_healthcare_policy.image_manifest.jsonl"
+  }
+}

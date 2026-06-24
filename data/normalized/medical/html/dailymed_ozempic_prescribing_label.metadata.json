@@ -1,0 +1,24 @@
+{
+  "document_id": "e99d8d01-b295-5ffb-893e-864d96e45176",
+  "domain": "medical",
+  "source_type": "html",
+  "source_name": "dailymed_ozempic_prescribing_label",
+  "element_count": 276,
+  "element_counts": {
+    "text": 40,
+    "heading": 234,
+    "table": 2
+  },
+  "ignored_counts": {
+    "navigation_text": 4,
+    "duplicate_image": 7,
+    "duplicate_content": 30
+  },
+  "image_decisions": {
+    "reject": 5
+  },
+  "outputs": {
+    "elements_path": "data/normalized/medical/html/dailymed_ozempic_prescribing_label.elements.jsonl",
+    "image_manifest_path": "data/normalized/medical/html/dailymed_ozempic_prescribing_label.image_manifest.jsonl"
+  }
+}

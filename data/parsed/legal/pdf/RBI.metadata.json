@@ -1,0 +1,3306 @@
+{
+  "job": {
+    "id": "pjb-41x3kcxm7t1fz18086mxircs1gk2",
+    "project_id": "0a36a2d2-3645-46e6-8e83-9e88dbdb0056",
+    "status": "COMPLETED",
+    "created_at": "2026-06-10T19:57:37.813269Z",
+    "error_message": null,
+    "name": "RBI.pdf",
+    "tier": "agentic",
+    "updated_at": "2026-06-10T20:01:48.757610Z"
+  },
+  "images_content_metadata": null,
+  "items": null,
+  "job_metadata": null,
+  "markdown": null,
+  "markdown_full": null,
+  "metadata": {
+    "pages": [
+      {
+        "page_number": 1,
+        "confidence": 0.871,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": null,
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 2,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "2",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 3,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "3",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 4,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "4",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 5,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "5",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 6,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "6",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 7,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "7",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 8,
+        "confidence": 0.973,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "8",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 9,
+        "confidence": 0.967,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "9",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 10,
+        "confidence": 0.962,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "10",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 11,
+        "confidence": 0.918,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "11",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 12,
+        "confidence": 0.868,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "12",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 13,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "13",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 14,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "14",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 15,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "15",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 16,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "16",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 17,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "17",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 18,
+        "confidence": 0.985,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "18",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 19,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "19",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 20,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "20",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 21,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "21",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 22,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "22",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 23,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "23",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 24,
+        "confidence": 0.968,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "24",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 25,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "25",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 26,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "26",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 27,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "27",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 28,
+        "confidence": 0.575,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "28",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 29,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "29",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 30,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "30",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 31,
+        "confidence": 0.991,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "31",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 32,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "32",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 33,
+        "confidence": 0.984,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "33",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 34,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "34",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 35,
+        "confidence": 0.843,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "35",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 36,
+        "confidence": 0.868,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "36",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 37,
+        "confidence": 0.977,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "37",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 38,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "38",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 39,
+        "confidence": 0.92,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "39",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 40,
+        "confidence": 0.924,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "40",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 41,
+        "confidence": 0.914,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "41",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 42,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "42",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 43,
+        "confidence": 0.816,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "43",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 44,
+        "confidence": 0.903,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "44",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 45,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "45",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 46,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "46",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 47,
+        "confidence": 0.962,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "47",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 48,
+        "confidence": 0.969,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "48",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 49,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "49",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 50,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "50",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 51,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "51",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 52,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "52",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 53,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "53",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 54,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "54",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 55,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "55",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 56,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "56",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 57,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "57",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 58,
+        "confidence": 0.971,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "58",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 59,
+        "confidence": 0.844,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "59",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 60,
+        "confidence": 0.816,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "60",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 61,
+        "confidence": 0.974,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "61",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 62,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "62",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 63,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "63",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 64,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "64",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 65,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "65",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 66,
+        "confidence": 0.989,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "66",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 67,
+        "confidence": 0.925,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "67",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 68,
+        "confidence": 0.969,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "68",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 69,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "69",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 70,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "70",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 71,
+        "confidence": 0.98,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "71",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 72,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "72",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 73,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "73",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 74,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "74",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 75,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "75",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 76,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "76",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 77,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "77",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 78,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "78",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 79,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "79",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 80,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "80",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 81,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "81",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 82,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "82",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 83,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "83",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 84,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "84",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 85,
+        "confidence": 0.98,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "85",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 86,
+        "confidence": 0.937,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "86",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 87,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "87",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 88,
+        "confidence": 0.954,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "88",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 89,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "89",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 90,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "90",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 91,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "91",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 92,
+        "confidence": 0.97,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "92",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 93,
+        "confidence": 0.988,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "93",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 94,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "94",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 95,
+        "confidence": 0.893,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "95",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 96,
+        "confidence": 0.978,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "96",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 97,
+        "confidence": 0.336,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "97",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 98,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "98",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 99,
+        "confidence": 0.917,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "99",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 100,
+        "confidence": 0.759,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "100",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 101,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "101",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 102,
+        "confidence": 0.788,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "102",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 103,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "103",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 104,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "104",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 105,
+        "confidence": 0.96,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "105",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 106,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "106",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 107,
+        "confidence": 0.937,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "107",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 108,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "108",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 109,
+        "confidence": 0.973,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "109",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 110,
+        "confidence": 0.701,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "110",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 111,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "111",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 112,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "112",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 113,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "113",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 114,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "114",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 115,
+        "confidence": 0.991,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "115",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 116,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "116",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 117,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "117",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 118,
+        "confidence": 0.975,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "118",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 119,
+        "confidence": 0.972,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "119",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 120,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "120",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 121,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "121",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 122,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "122",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 123,
+        "confidence": 0.971,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "123",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 124,
+        "confidence": 0.968,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "124",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 125,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "125",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 126,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "126",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 127,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "127",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 128,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "128",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 129,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "129",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 130,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "130",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 131,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "131",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 132,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "132",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 133,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "133",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 134,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "134",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 135,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "135",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 136,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "136",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 137,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "137",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 138,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "138",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 139,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "139",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 140,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "140",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 141,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "141",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 142,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "142",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 143,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "143",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 144,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "144",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 145,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "145",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 146,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "146",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 147,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "147",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 148,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "148",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 149,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "149",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 150,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "150",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 151,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "151",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 152,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "152",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 153,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "153",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 154,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "154",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 155,
+        "confidence": 0.966,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "155",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 156,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "156",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 157,
+        "confidence": 0.991,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "157",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 158,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "158",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 159,
+        "confidence": 0.967,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "159",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 160,
+        "confidence": 0.986,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "160",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 161,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "161",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 162,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "162",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 163,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "163",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 164,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "164",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 165,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "165",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 166,
+        "confidence": 0.945,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "166",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 167,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "167",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 168,
+        "confidence": 0.979,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "168",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 169,
+        "confidence": 0.989,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "169",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 170,
+        "confidence": 0.958,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "170",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 171,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "171",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 172,
+        "confidence": 0.97,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "172",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 173,
+        "confidence": 0.984,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "173",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 174,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "174",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 175,
+        "confidence": 0.989,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "175",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 176,
+        "confidence": 0.945,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "176",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 177,
+        "confidence": 0.98,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "177",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 178,
+        "confidence": 0.96,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "178",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 179,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "179",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 180,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "180",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 181,
+        "confidence": 0.981,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "181",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 182,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "182",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 183,
+        "confidence": 0.914,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "183",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 184,
+        "confidence": 0.984,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "184",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 185,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "185",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 186,
+        "confidence": 0.955,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "186",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 187,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "187",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 188,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "188",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 189,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "189",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 190,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "190",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 191,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "191",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 192,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "192",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 193,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "193",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 194,
+        "confidence": 0.981,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "194",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 195,
+        "confidence": 0.851,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "195",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 196,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "196",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 197,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "197",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 198,
+        "confidence": 0.991,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "198",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 199,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "199",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 200,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "200",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 201,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "201",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 202,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "202",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 203,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "203",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 204,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "204",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 205,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "205",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 206,
+        "confidence": 0.842,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "206",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 207,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "207",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 208,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "208",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 209,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "209",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 210,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "210",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 211,
+        "confidence": 0.819,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "211",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 212,
+        "confidence": 0.946,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "212",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 213,
+        "confidence": 0.821,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "213",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 214,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "214",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 215,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "215",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 216,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "216",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 217,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "217",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 218,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "218",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 219,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "219",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 220,
+        "confidence": 0.929,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "220",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 221,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "221",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 222,
+        "confidence": 0.675,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "222",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 223,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "223",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 224,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "224",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 225,
+        "confidence": 0.922,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "225",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 226,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "226",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 227,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "227",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 228,
+        "confidence": 0.933,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "228",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 229,
+        "confidence": 0.906,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "229",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 230,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "230",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 231,
+        "confidence": 0.534,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "231",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 232,
+        "confidence": 0.519,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "232",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 233,
+        "confidence": 0.933,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "233",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 234,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "234",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 235,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "235",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 236,
+        "confidence": 0.971,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "236",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 237,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "237",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 238,
+        "confidence": 0.991,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "238",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 239,
+        "confidence": 0.981,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "239",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 240,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "240",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 241,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "241",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 242,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "242",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 243,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "243",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 244,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "244",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 245,
+        "confidence": 0.162,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "245",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 246,
+        "confidence": 0.698,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "246",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 247,
+        "confidence": 0.893,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "247",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 248,
+        "confidence": 0.956,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "248",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 249,
+        "confidence": 0.93,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "249",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 250,
+        "confidence": 0.446,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "250",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 251,
+        "confidence": 0.96,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "251",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 252,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "252",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 253,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "253",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 254,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "254",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 255,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "255",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 256,
+        "confidence": 0.998,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "256",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 257,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "257",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 258,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "258",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 259,
+        "confidence": 0.88,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "259",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 260,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "260",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 261,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "261",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 262,
+        "confidence": 0.993,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "262",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 263,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "263",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 264,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "264",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 265,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "265",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 266,
+        "confidence": 0.971,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "266",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 267,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "267",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 268,
+        "confidence": 0.963,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "268",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 269,
+        "confidence": 0.618,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "269",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 270,
+        "confidence": 0.79,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "270",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 271,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "271",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 272,
+        "confidence": 0.988,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "272",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 273,
+        "confidence": 0.994,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "273",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 274,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "274",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 275,
+        "confidence": 0.962,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "275",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 276,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "276",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 277,
+        "confidence": 0.997,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "277",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 278,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "278",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 279,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "279",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 280,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "280",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 281,
+        "confidence": 0.321,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "281",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 282,
+        "confidence": 0.486,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "282",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 283,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "283",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 284,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "284",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 285,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "285",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 286,
+        "confidence": 0.959,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "286",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 287,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "287",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 288,
+        "confidence": 0.99,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "288",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 289,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "289",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 290,
+        "confidence": 0.909,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "290",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 291,
+        "confidence": 0.342,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "291",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 292,
+        "confidence": 0.8,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "292",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 293,
+        "confidence": 0.346,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "293",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 294,
+        "confidence": 0.063,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "294",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 295,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "295",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 296,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "296",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 297,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "297",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 298,
+        "confidence": 0.971,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "298",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 299,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "299",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 300,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "300",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 301,
+        "confidence": 0.954,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "301",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 302,
+        "confidence": 0.652,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "302",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 303,
+        "confidence": 0.662,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "303",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 304,
+        "confidence": 0.201,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "304",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 305,
+        "confidence": 0.996,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "305",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 306,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "306",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 307,
+        "confidence": 0.986,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "307",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 308,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "308",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 309,
+        "confidence": 0.905,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "309",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 310,
+        "confidence": 0.657,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "310",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 311,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "311",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 312,
+        "confidence": 0.975,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "312",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 313,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "313",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 314,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "314",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 315,
+        "confidence": 0.936,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "315",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 316,
+        "confidence": 0.961,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "316",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 317,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "317",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 318,
+        "confidence": 0.995,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "318",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 319,
+        "confidence": 0.989,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "319",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 320,
+        "confidence": 0.992,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "320",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 321,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "321",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 322,
+        "confidence": 0.96,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "322",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 323,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "323",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 324,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "324",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 325,
+        "confidence": 1.0,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "325",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 326,
+        "confidence": 0.947,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "326",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 327,
+        "confidence": 0.941,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "327",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      },
+      {
+        "page_number": 328,
+        "confidence": 0.877,
+        "cost_optimized": false,
+        "original_orientation_angle": 0,
+        "printed_page_number": "328",
+        "slide_section_name": null,
+        "speaker_notes": null,
+        "triggered_auto_mode": false
+      }
+    ]
+  },
+  "raw_parameters": null,
+  "result_content_metadata": null,
+  "text": null,
+  "text_full": null,
+  "debug": null
+}

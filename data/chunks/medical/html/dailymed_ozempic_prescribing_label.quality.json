@@ -1,0 +1,45 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 39,
+  "child_count": 118,
+  "chunk_modalities": {
+    "text": 97,
+    "text+table": 19,
+    "table": 2
+  },
+  "child_token_stats": {
+    "min": 31,
+    "average": 449.49,
+    "p95": 670,
+    "max": 691
+  },
+  "parent_token_stats": {
+    "min": 3,
+    "average": 1382.67,
+    "p95": 2925,
+    "max": 2985
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 21,
+  "tables_split": 0,
+  "table_split_strategies": {},
+  "image_assignment_methods": {},
+  "weighted_images_assigned_same_page": 0,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [],
+  "chunks_over_image_limit": [],
+  "document_id": "e99d8d01-b295-5ffb-893e-864d96e45176",
+  "domain": "medical",
+  "source_type": "html",
+  "source_name": "dailymed_ozempic_prescribing_label",
+  "outputs": {
+    "parents_path": "data/chunks/medical/html/dailymed_ozempic_prescribing_label.parents.jsonl",
+    "children_path": "data/chunks/medical/html/dailymed_ozempic_prescribing_label.children.jsonl"
+  }
+}

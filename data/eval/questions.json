@@ -1,0 +1,188 @@
+[
+  {
+    "id": "finance-what-is-the-return-on-tangible-common-equity",
+    "question": "What is the Return on Tangible Common Equity (ROTCE) of JPMorgan Chase, and how does the ROE of its Asset & Wealth Management segment compare to the firm-wide ROE?",
+    "reference_answer": "JPMorgan Chase's ROTCE is 20%. The Asset & Wealth Management (AWM) segment has an ROE of 40%, which is significantly higher than the firm-wide ROE of 17%.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-how-many-of-the-11-nominated-directors-on",
+    "question": "How many of the 11 nominated directors on JPMorgan Chase's board are independent, and which director serves as the Chair of the Risk committee?",
+    "reference_answer": "10 out of the 11 nominated directors are independent — all except the CEO, James Dimon. Linda B. Bammann serves as the Chair of the Risk committee.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-what-was-james-dimon-s-2025-annual-compensation",
+    "question": "What was James Dimon's 2025 annual compensation, and how does JPMorgan Chase's 3-year average annual CEO pay as a percentage of profits compare to its closest peer?",
+    "reference_answer": "James Dimon's 2025 annual compensation was $43 million. JPMorgan Chase's 3-year average annual CEO pay as a percentage of profits (2023-2025) is 0.07%, which is the lowest among all listed peers. The closest peer is Bank of America at 0.18%, meaning JPMorgan's ratio is roughly 2.5 times more efficient.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-which-business-segment-of-reliance-industries-has-the",
+    "question": "Which business segment of Reliance Industries has the highest revenue, and what is the total value added by the company in FY 2024-25 compared to FY 2023-24?",
+    "reference_answer": "The Oil to Chemicals segment has the highest revenue at Rs 6,26,921 Crore (US$ 73.4 Billion). The total value added in FY 2024-25 is Rs 4,30,453 Crore, up from Rs 3,94,020 Crore in FY 2023-24.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-how-many-5g-users-does-jio-have-as",
+    "question": "How many 5G users does Jio have as of March 2025, what percentage of its wireless data traffic do they contribute, and what is Jio's total spectrum footprint after the June 2024 auction?",
+    "reference_answer": "As of March 2025, Jio has approximately 191 million 5G users, contributing around 45% of its wireless data traffic. After enhancing its holdings in the 1800 MHz band in Bihar and West Bengal through the June 2024 Spectrum Auction, Jio's total spectrum footprint increased to 26,801 MHz (uplink + downlink).",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-what-are-reliance-industries-total-assets-and-total",
+    "question": "What are Reliance Industries' total assets and total equity as at 31st March 2025, and how much did total assets grow compared to 31st March 2024?",
+    "reference_answer": "As at 31st March 2025, Reliance Industries' total assets are Rs 10,22,401 Crore and total equity is Rs 5,43,087 Crore. Total assets grew by Rs 62,758 Crore compared to 31st March 2024, when they were Rs 9,59,643 Crore.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-what-was-the-operating-income-for-microsoft-s",
+    "question": "What was the Operating Income for Microsoft's Intelligent Cloud segment in fiscal year 2025, and how does it compare to fiscal year 2023?",
+    "reference_answer": "Microsoft's Intelligent Cloud segment reported an Operating Income of $44,589 million in fiscal year 2025, compared to $28,411 million in fiscal year 2023.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-what-was-microsoft-s-net-deferred-income-tax",
+    "question": "What was Microsoft's net deferred income tax assets as of June 30, 2025, and how was it reported in the balance sheet?",
+    "reference_answer": "Microsoft's net deferred income tax assets as of June 30, 2025 was $26,273 million, reported as $29,108 million in Other long-term assets offset by $(2,835) million in Long-term deferred income tax liabilities.",
+    "domain": "finance"
+  },
+  {
+    "id": "finance-what-was-the-total-number-of-shares-purchased",
+    "question": "What was the total number of shares purchased by Microsoft during the fourth quarter of fiscal year 2025, and what was the approximate dollar value of shares that may yet be purchased under the plans or programs as of June 30, 2025?",
+    "reference_answer": "Microsoft purchased a total of 7,520,493 shares during the fourth quarter of fiscal year 2025 (April–June 2025). As of June 30, 2025, the approximate dollar value of shares that may yet be purchased under the plans or programs was $57,349 million.",
+    "domain": "finance"
+  },
+  {
+    "id": "medical-in-the-24-hour-plasma-glucose-profile-study",
+    "question": "In the 24-hour plasma glucose profile study, how many patients were in the OZEMPIC 1 mg end-of-treatment group compared to the OZEMPIC baseline group?",
+    "reference_answer": "The OZEMPIC 1 mg end-of-treatment group had 36 patients (n=36), while the OZEMPIC baseline group had 37 patients (n=37).",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-in-the-week-30-ozempic-monotherapy-trial-what",
+    "question": "In the Week 30 OZEMPIC monotherapy trial, what percentage of patients achieved HbA1c less than 7% in the OZEMPIC 0.5 mg group compared to the Placebo group?",
+    "reference_answer": "73% of patients in the OZEMPIC 0.5 mg group achieved HbA1c less than 7%, compared to 28% in the Placebo group.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-in-the-mean-hba1c-over-time-study-from",
+    "question": "In the Mean HbA1c (%) Over Time study from Baseline to Week 56, how many patients were in each treatment group at randomization and how many remained at Week 30?",
+    "reference_answer": "At randomization, OZEMPIC 0.5 mg had 409 patients, OZEMPIC 1 mg had 409 patients, and Sitagliptin had 407 patients. At Week 30, OZEMPIC 0.5 mg had 383 patients, OZEMPIC 1 mg had 378 patients, and Sitagliptin had 387 patients.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-how-many-completed-surveys-did-southeast-health-medical",
+    "question": "How many completed surveys did Southeast Health Medical Center in Dothan, Alabama have, and what was its survey response rate?",
+    "reference_answer": "Southeast Health Medical Center (Facility ID 010001) in Dothan, AL had 952 completed surveys, with a survey response rate of 17%, for the survey period of July 1, 2024 to June 30, 2025.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-what-was-southeast-health-medical-center-s-overall",
+    "question": "What was Southeast Health Medical Center's overall summary star rating, and what percentage of patients gave it a 9 or 10 overall rating?",
+    "reference_answer": "Southeast Health Medical Center had an overall summary star rating of 4 stars. 73% of patients gave the hospital a rating of 9 or 10 on a scale from 0 to 10, and 77% of patients said they would definitely recommend the hospital.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-what-star-ratings-did-southeast-health-medical-center",
+    "question": "What star ratings did Southeast Health Medical Center receive for nurse communication and for doctor communication?",
+    "reference_answer": "Southeast Health Medical Center received a 3-star rating for nurse communication and a 4-star rating for doctor communication.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-according-to-unitedhealthcare-s-hedis-measures-for-prenatal",
+    "question": "According to UnitedHealthcare's HEDIS measures for Prenatal and Postpartum Care, when must a prenatal care visit take place, and why does a Pap test alone not qualify as a prenatal care visit?",
+    "reference_answer": "A prenatal care visit must take place in the first trimester, on or before the enrollment start date, or within 42 days of enrollment with the health plan. The first trimester is defined as 280-176 days prior to delivery/EDD. A Pap test does not count as a prenatal care visit, and a colposcopy alone does not meet numerator compliance for prenatal care. The visit must be with an OB-GYN or prenatal care provider and must include at least one qualifying test or procedure such as a diagnosis of pregnancy, auscultation for fetal heart tone, documentation in a standard prenatal flowsheet, or prenatal lab results.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-what-is-the-definition-of-the-controlling-high",
+    "question": "What is the definition of the Controlling High Blood Pressure (CBP) HEDIS measure, and what are the specific CPT II codes used to report systolic blood pressure levels below 130 mmHg versus 140 mmHg or above?",
+    "reference_answer": "The CBP HEDIS measure tracks the percentage of members ages 18-85 who had a diagnosis of hypertension (HTN) and whose blood pressure was adequately controlled at <140/90 mmHg during the measurement year. The CPT II code for systolic blood pressure level <130 mmHg is 3074F, for levels 130-139 mmHg is 3075F, and for levels >=140 mmHg is 3077F. The measure applies to Commercial, Exchange/Marketplace, Medicaid, and Medicare plans, and uses a hybrid collection method including claim/encounter data, medical record documentation, and pharmacy data.",
+    "domain": "medical"
+  },
+  {
+    "id": "medical-what-are-the-icd-10-diagnosis-codes-for",
+    "question": "What are the ICD-10 diagnosis codes for diabetes mellitus without complications used in the UnitedHealthcare Eye Exam for Diabetes (EED) HEDIS measure, and what LOINC codes differentiate left eye versus right eye retinal exam findings?",
+    "reference_answer": "The ICD-10 diagnosis codes for diabetes mellitus without complications are E10.9, E11.9, and E13.9. For retinal exam findings, the left eye uses LOINC code 71490-7 and the right eye uses LOINC code 71491-5. Diabetic retinopathy severity level is captured using LOINC codes LA18644-7, LA18645-4, LA18643-9, LA18648-8, and LA18646-2. A finding of no retinopathy uses LOINC code LA18643-9 specifically.",
+    "domain": "medical"
+  },
+  {
+    "id": "legal-according-to-the-gdpr-what-specific-categories-of",
+    "question": "According to the GDPR, what specific categories of personal data processing are identified as posing risks to the rights and freedoms of natural persons, and what types of damage can such processing lead to?",
+    "reference_answer": "The GDPR identifies that processing posing risks includes: processing that reveals racial or ethnic origin, political opinions, religion or philosophical beliefs, trade union membership; processing of genetic data, health data, data concerning sex life, or criminal convictions and offences. It also includes evaluating personal aspects such as performance at work, economic situation, health, personal preferences, reliability or behaviour, location or movements to create or use personal profiles; processing data of vulnerable persons, particularly children; and processing involving large amounts of data affecting a large number of data subjects. The types of damage include physical, material, or non-material damage, specifically discrimination, identity theft or fraud, financial loss, damage to reputation, loss of confidentiality of professionally protected data, unauthorised reversal of pseudonymisation, or any other significant economic or social disadvantage.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-under-gdpr-recital-81-what-guarantees-must-a",
+    "question": "Under GDPR Recital 81, what guarantees must a controller look for when selecting a data processor, and what must happen to personal data after the processing is completed on behalf of the controller?",
+    "reference_answer": "When selecting a data processor, the controller must use only processors providing sufficient guarantees in terms of expert knowledge, reliability, and resources to implement technical and organisational measures that meet the requirements of the GDPR, including security of processing. The processor's adherence to an approved code of conduct or an approved certification mechanism may be used to demonstrate compliance. After the completion of processing on behalf of the controller, the processor must, at the choice of the controller, return or delete the personal data, unless there is a requirement to store the personal data under Union or Member State law. The processing relationship must be governed by a contract or legal act setting out the subject-matter, duration, nature and purposes of processing, type of personal data, and categories of data subjects.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-under-gdpr-article-28-what-happens-if-a",
+    "question": "Under GDPR Article 28, what happens if a data processor engages a sub-processor who fails to fulfil its data protection obligations, and under what circumstance does a processor become considered a controller?",
+    "reference_answer": "When a processor engages another sub-processor, the same data protection obligations from the contract between the controller and the original processor must be imposed on the sub-processor. If that sub-processor fails to fulfil its data protection obligations, the initial processor remains fully liable to the controller for the performance of that sub-processor's obligations. Additionally, the sub-processor can only be engaged with prior specific or general written authorisation from the controller. A processor becomes considered a controller if it infringes the Regulation by independently determining the purposes and means of processing, as stated in Article 28(10).",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-according-to-the-rbi-basel-iii-capital-regulations",
+    "question": "According to the RBI Basel III Capital Regulations, how is surplus Total Capital of a subsidiary calculated for the purpose of determining minority interest recognition, and what is the minimum Total Capital requirement percentage including the capital conservation buffer?",
+    "reference_answer": "Surplus Total Capital of a subsidiary is calculated as the Total Capital of the subsidiary minus the lower of: (a) the minimum Total Capital requirement of the subsidiary plus the capital conservation buffer, which equals 11.5% of risk-weighted assets, or (b) the portion of the consolidated minimum Total Capital requirement plus the capital conservation buffer (11.5% of consolidated risk-weighted assets) that relates to the subsidiary. The amount of surplus Total Capital attributable to third party investors is then calculated by multiplying the surplus Total Capital by the percentage of Total Capital held by third party investors.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-under-the-rbi-basel-iii-capital-regulations-what",
+    "question": "Under the RBI Basel III Capital Regulations, what are the different treatment approaches for Deferred Tax Assets (DTAs) associated with accumulated losses versus those related to timing differences, and what is the combined cap for limited recognition of DTAs and significant investments in unconsolidated financial entities?",
+    "reference_answer": "DTAs associated with accumulated losses must be deducted in full from CET1 capital. DTAs related to timing differences (other than accumulated losses) may be recognized in CET1 capital up to 10% of the bank's CET1 capital instead of full deduction. However, this limited recognition of timing-difference DTAs, combined with limited recognition of significant investments in common shares of unconsolidated financial entities, must not exceed 15% of CET1 capital (calculated after all regulatory adjustments). Banks must also ensure that CET1 capital after applying the 15% combined limit does not result in recognizing any individual item beyond its 10% individual limit. DTAs not deducted from CET1 capital are risk-weighted at 250%. DTAs may be netted with associated deferred tax liabilities (DTLs) only if both relate to the same taxation authority and offsetting is permitted.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-how-does-the-rbi-basel-iii-framework-treat",
+    "question": "How does the RBI Basel III framework treat the cash flow hedge reserve in CET1 capital calculation, and why does it require derecognition of the reserve for hedging items not fair valued on the balance sheet?",
+    "reference_answer": "The RBI Basel III framework requires that the cash flow hedge reserve relating to hedging of items not fair valued on the balance sheet (including projected cash flows) be derecognised from CET1 capital. Positive amounts must be deducted and negative amounts must be added back. The rationale is that it removes artificial volatility in Common Equity because the reserve only reflects one half of the picture: the fair value of the derivative, but not the changes in fair value of the hedged future cash flow. At the consolidated level, this derecognition applies to the cash flow hedge reserve attributed to subsidiaries in addition to the derecognition pertaining to the solo bank.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-according-to-the-sebi-master-circular-where-must",
+    "question": "According to the SEBI Master Circular, where must Merchant Bankers file offer documents online, and what is the specific filing process for rights issues that differs from the standard filing procedure?",
+    "reference_answer": "Merchant Bankers must file offer documents and related documents online through the SEBI Intermediary Portal at https://siportal.sebi.gov.in, simultaneously with physical filing. However, for rights issues, the process differs — the issuer must file the letter of offer with SEBI through email at cfddil@sebi.gov.in, and the payment of filing fees must be made online through a payment link provided on the SEBI website under the fees category Filing Fees. Draft offer documents that are not compliant with Schedule VI of the ICDR Regulations may be returned to the issuer.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-what-are-the-sebi-requirements-for-the-audiovisual",
+    "question": "What are the SEBI requirements for the Audiovisual (AV) presentation of public issue disclosures, including duration, language format, and the specific warning that must be included about finfluencers?",
+    "reference_answer": "SEBI requires that AV presentations be prepared for all main board public issues covering salient disclosures from the DRHP, RHP, and Price Band Advertisement. Each bilingual version must be approximately 10 minutes in duration, initially in English and Hindi, with the Hindi version containing text in Devanagari script. The AV must include a specific disclosure warning investors not to rely on any document, content, or information provided on the internet, websites, social media platforms, or micro-blogging platforms by finfluencers, and to rely only on the Offer document and Price Band Advertisement for investment decisions. The content must be factual, non-repetitive, non-promotional, and not misleading. The AV must be uploaded on the website of the Issuer and the Association of Investment Bankers of India (AIBI) within 5 working days of filing the DRHP.",
+    "domain": "legal"
+  },
+  {
+    "id": "legal-what-is-the-sebi-mandated-formula-for-calculating",
+    "question": "What is the SEBI-mandated formula for calculating minimum fair compensation to retail investors in an IPO when an SCSB fails to process their application, and what happens if the listing price is below the issue price?",
+    "reference_answer": "The SEBI-mandated formula is: Compensation = (Listing price - Issue Price) x Number of shares that would have been allotted if bid was successful x Probability of allotment of shares determined on the basis of allotment. The listing price is taken as the highest of the opening prices on the day of listing across recognized stock exchanges. No compensation is payable if the listing price is below the issue price. For issues subscribed between 90-100% (non-oversubscribed), applicants are compensated for all shares they would have been allotted. Investors must seek redressal within three months of the listing date, and the SCSB must resolve complaints within 15 days, failing which it must pay interest at 15% per annum for any delay beyond that period.",
+    "domain": "legal"
+  },
+  {
+    "id": "out_of_scope-what-is-the-weather-today",
+    "question": "What is the weather today?",
+    "reference_answer": "This question is outside the scope of the provided documents.",
+    "domain": "out_of_scope"
+  },
+  {
+    "id": "out_of_scope-who-is-the-president-of-the-united-states",
+    "question": "Who is the president of the United States?",
+    "reference_answer": "This question is outside the scope of the provided documents.",
+    "domain": "out_of_scope"
+  },
+  {
+    "id": "out_of_scope-what-is-the-capital-of-india",
+    "question": "What is the capital of India?",
+    "reference_answer": "This question is outside the scope of the provided documents.",
+    "domain": "out_of_scope"
+  },
+  {
+    "id": "out_of_scope-what-is-reliance-s-policy-on-space-exploration",
+    "question": "What is Reliance's policy on space exploration?",
+    "reference_answer": "The provided documents do not contain information about Reliance's space exploration policy.",
+    "domain": "out_of_scope"
+  }
+]

@@ -1,0 +1,56 @@
+{
+  "tokenizer": "tiktoken:cl100k_base",
+  "token_safety_factor": 1.1,
+  "parent_count": 515,
+  "child_count": 1077,
+  "chunk_modalities": {
+    "text": 468,
+    "table+image": 236,
+    "table": 289,
+    "text+image": 84
+  },
+  "child_token_stats": {
+    "min": 21,
+    "average": 193.04,
+    "p95": 522,
+    "max": 1622
+  },
+  "parent_token_stats": {
+    "min": 0,
+    "average": 492.27,
+    "p95": 1966,
+    "max": 2995
+  },
+  "empty_chunks": [],
+  "image_only_chunks": [],
+  "missing_image_paths": [],
+  "duplicate_chunk_count": 0,
+  "parents_without_children": [],
+  "oversized_non_table_chunks": [],
+  "table_chunks": 525,
+  "tables_split": 52,
+  "table_split_strategies": {
+    "markdown_rows": 96,
+    "structured_rows": 36,
+    "unstructured_last_resort": 6
+  },
+  "image_assignment_methods": {
+    "weighted_geometry": 338,
+    "contextual_fallback": 15,
+    "visual_table_fallback": 7
+  },
+  "weighted_images_assigned_same_page": 338,
+  "weighted_images_assigned_cross_page": 0,
+  "oversized_table_chunks": [
+    "b7c64298-1760-5ed4-a6e5-105651c81568"
+  ],
+  "chunks_over_image_limit": [],
+  "document_id": "e1e88096-801f-5fdb-8400-695ceff04e0b",
+  "domain": "medical",
+  "source_type": "pdf",
+  "source_name": "united_healthcare_policy",
+  "outputs": {
+    "parents_path": "data/chunks/medical/pdf/united_healthcare_policy.parents.jsonl",
+    "children_path": "data/chunks/medical/pdf/united_healthcare_policy.children.jsonl"
+  }
+}
