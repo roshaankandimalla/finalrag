@@ -54,4 +54,6 @@ own.md
 scripts/build_unified_graph.py
 src\finalrag\graphing
 src/finalrag/graphing/
+
+src/finalrag/graphing/
 gffg.txt
