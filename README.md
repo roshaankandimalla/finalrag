@@ -139,7 +139,7 @@ src/finalrag/
   retrieval/       dense search, sparse search, RRF, parent expansion, reranking
   generation/      context building, citations, Gemini generation
   evaluation/      RAGAS evaluation
-  graphing/        unified graph tracing utilities
+  
 
 scripts/
   01_create_database.py
@@ -150,8 +150,7 @@ scripts/
   06_index_chunks.py
   07_query.py
   08_evaluate.py
-  09_build_unified_graph.py
-  10_export_embeddings.py
+  export_embeddings.py
   colab_generate_splade.py
   test_llamaparse_one_pdf.py
 
