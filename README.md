@@ -1,19 +1,24 @@
-# FinalRAG: Multimodal Hybrid RAG Portfolio Project
+# FinalRAG: Multimodal Hybrid RAG System
 
-FinalRAG is a local, domain-aware multimodal RAG system for finance, legal, and medical documents. It supports PDF, HTML, and CSV sources, converts them into a common document schema, builds hierarchical parent-child chunks, indexes them with dense multimodal embeddings and SPLADE sparse vectors, retrieves with hybrid search, reranks with Voyage, generates grounded answers with Gemini, and evaluates quality with RAGAS.
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-pgvector-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-Local%20Stack-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-Multimodal-7C3AED?style=for-the-badge)
+![Evaluation](https://img.shields.io/badge/Evaluation-RAGAS-00A67E?style=for-the-badge)
 
-The goal is to demonstrate an enterprise-style RAG pipeline, not a simple vector-search demo.
+FinalRAG is a local-first, domain-aware **multimodal hybrid RAG system** for finance, legal, and medical documents. It ingests PDF, HTML, and CSV sources, normalizes them into a shared schema, builds hierarchical parent-child chunks, indexes dense and sparse representations, retrieves with hybrid search, reranks evidence, generates grounded answers, and evaluates quality with RAGAS.
 
-## What This Project Shows
+This project is designed to demonstrate an enterprise-style RAG pipeline rather than a simple vector search demo.
 
-- Domain-aware ingestion for finance, legal, and medical files
+## Highlights
+
+- Domain-aware ingestion for finance, legal, and medical data
 - PDF parsing with LlamaParse
-- HTML parsing with Firecrawl / Trafilatura
+- HTML parsing with Firecrawl and Trafilatura
 - Large CSV processing with Pandas
-- Normalization into a shared element schema
-- Hierarchical parent-child chunking
-- Multimodal retrieval chunks with text, tables, and image paths
-- Voyage multimodal dense embeddings
+- Shared normalized schema for text, tables, images, and metadata
+- Hierarchical parent-child chunking for better context expansion
+- Multimodal dense embeddings with Voyage
 - SPLADE sparse vectors for lexical retrieval
 - PostgreSQL + pgvector storage through Docker
 - Hybrid retrieval with Reciprocal Rank Fusion
@@ -22,12 +27,30 @@ The goal is to demonstrate an enterprise-style RAG pipeline, not a simple vector
 - Gemini grounded answer generation
 - Citations with file, page, section, and chunk metadata
 - RAGAS evaluation with saved metrics
+- Unit tests for core pipeline components
+
+## Quick Start
+
+```powershell
+pip install -r requirements.txt
+copy .env.example .env
+docker compose up -d db
+python scripts/01_create_database.py
+python scripts/02_discover_files.py
+python scripts/03_parse_all.py
+python scripts/04_normalize_elements.py
+python scripts/05_create_chunks.py
+python scripts/06_index_chunks.py
+python scripts/07_query.py "What was Reliance Industries financial performance?"
+```
+
+Before running the full pipeline, fill in the required API keys and database URL in `.env`.
 
 ## Architecture
 
 ```text
 Local domain files
-  -> file discovery
+  -> domain-aware file discovery
   -> parser router
       -> PDF: LlamaParse
       -> HTML: Firecrawl / Trafilatura
@@ -49,221 +72,57 @@ Local domain files
   -> RAGAS evaluation
 ```
 
-## End-To-End Pipeline
+## Pipeline
+
+FinalRAG follows a reproducible script-based workflow.
 
 ```text
-LOCAL DOMAIN FILES
 data/input/
-  legal/
-    *.pdf / *.html / *.csv
-  finance/
-    *.pdf / *.html / *.csv
-  medical/
-    *.pdf / *.html / *.csv
+  legal/      *.pdf / *.html / *.csv
+  finance/    *.pdf / *.html / *.csv
+  medical/    *.pdf / *.html / *.csv
       |
       v
-DOMAIN-AWARE FILE DISCOVERY
-      |
-      |-- Read domain folder name
-      |-- Assign domain
-      |-- Assign document_id
-      |-- Detect source_type
-      |-- Save original file path
+File discovery and document registry
       |
       v
-DOCUMENT REGISTRY
-PostgreSQL: documents table
-      |
-      |-- document_id
-      |-- domain
-      |-- file_name
-      |-- source_type
-      |-- file_path
-      |-- parser_used
-      |-- status
-      |-- created_at
+Parser routing by source type
       |
       v
-FILE ROUTER
-      |
-      |-- PDF  ---> LlamaParse
-      |-- HTML ---> Firecrawl / Trafilatura
-      |-- CSV  ---> Pandas
+Raw parsing outputs
       |
       v
-RAW PARSING
-      |
-      |-- PDF:
-      |     |-- Markdown text
-      |     |-- Tables
-      |     |-- Images
-      |     |-- Page metadata
-      |     |-- OCR text if LlamaParse provides it
-      |
-      |-- HTML:
-      |     |-- Markdown
-      |     |-- HTML
-      |     |-- Structured sections
-      |     |-- Metadata
-      |
-      |-- CSV:
-            |-- Raw rows
-            |-- Hospital profiles
-            |-- Hospital category documents
-            |-- Retrieval text
+Normalized elements
       |
       v
-SAVE RAW PARSED OUTPUTS
-Local disk
-      |
-      |-- data/parsed/{domain}/pdf/
-      |-- data/parsed/{domain}/html/
-      |-- data/parsed/{domain}/csv/
+Parent sections + child retrieval chunks
       |
       v
-NORMALIZATION LAYER
-Convert parser-specific outputs into common elements
-      |
-      |-- Text element
-      |-- Table element
-      |-- Image element
-      |-- Metadata element
+Dense and sparse embedding generation
       |
       v
-NORMALIZED ELEMENT SCHEMA
-      |
-      |-- element_id
-      |-- document_id
-      |-- domain
-      |-- source_type
-      |-- file_name
-      |-- element_type: text / table / image
-      |-- text
-      |-- table_markdown
-      |-- table_html
-      |-- image_path
-      |-- page_number
-      |-- row_range
-      |-- section_title
-      |-- metadata
+PostgreSQL + pgvector indexing
       |
       v
-IMAGE HANDLING
-      |
-      |-- Decode parser image payloads when available
-      |-- Save images locally
-      |-- Store image_path in chunks and database metadata
-      |-- Create image_base64 only temporarily for Gemini generation
+Hybrid retrieval + reranking
       |
       v
-HIERARCHICAL MULTIMODAL CHUNKING
-      |
-      |-- Build document hierarchy
-      |-- Detect headings and sections
-      |-- Create parent sections
-      |-- Create child retrieval chunks
-      |-- Preserve domain
-      |-- Preserve page numbers / row ranges
-      |-- Preserve table and image relationships
+Grounded answer generation + citations
       |
       v
-DOCUMENT HIERARCHY
-      |
-      Document
-        |
-        +-- Domain: legal / finance / medical
-              |
-              +-- Parent Section
-                    |
-                    +-- Child Retrieval Chunk
-                    +-- Child Retrieval Chunk
-                    +-- Child Retrieval Chunk
-      |
-      v
-PARENT SECTIONS
-PostgreSQL: parent_sections table
-      |
-      |-- parent_id
-      |-- document_id
-      |-- domain
-      |-- source_type
-      |-- section_title
-      |-- section_path
-      |-- page_numbers
-      |-- row_ranges
-      |-- parent_text
-      |-- metadata
-      |
-      v
-CHILD RETRIEVAL CHUNKS
-Main retrieval unit
-      |
-      |-- chunk_id
-      |-- parent_id
-      |-- document_id
-      |-- domain
-      |-- source_type
-      |-- file_name
-      |-- page_numbers
-      |-- row_range
-      |-- section_title
-      |-- modalities
-      |-- text
-      |-- table_markdown
-      |-- table_html
-      |-- image_paths
-      |-- metadata
-      |
-      v
-INDEX CHILD CHUNKS ONLY
-      |
-      +------------------------------------------------+
-      |                                                |
-      v                                                v
-DENSE EMBEDDING INPUT                         SPARSE EMBEDDING INPUT
-Voyage multimodal                             SPLADE text sparse model
-      |                                                |
-      |-- domain                                       |-- domain
-      |-- section_title                                |-- section_title
-      |-- text                                         |-- text
-      |-- table_markdown                               |-- table_markdown
-      |-- PIL image from image_path                    |-- source metadata text
-      |                                                |
-      v                                                v
-VOYAGE MULTIMODAL EMBEDDING                  SPLADE SPARSE EMBEDDING
-      |                                                |
-      |-- dense_embedding vector                       |-- sparse_embedding sparsevec
-      |                                                |
-      +------------------------+-----------------------+
-                               |
-                               v
-DOCKER POSTGRESQL + PGVECTOR
-      |
-      |-- documents
-      |-- parent_sections
-      |-- child_chunks
-      |-- hospital_profiles
-      |-- hospital_category_docs
-      |-- dense_embedding vector(...)
-      |-- sparse_embedding sparsevec(...)
-      |-- domain metadata
-      |-- metadata JSONB
-      |
-      v
-INDEXING COMPLETE
-Document status = completed
+RAGAS evaluation
 ```
 
 ## Why Multimodal
 
-The system keeps different evidence types together instead of flattening everything into plain text.
+FinalRAG keeps different evidence types connected instead of flattening every source into plain text.
 
 - Text is used directly for retrieval and generation.
-- Tables are represented as markdown for retrieval and HTML for generation.
+- Tables are represented as markdown for retrieval and HTML for answer generation.
 - Images are stored as local file paths and loaded only when needed.
-- Image base64 is created temporarily during generation and is not stored in PostgreSQL.
+- Image base64 payloads are created temporarily during generation and are not stored in PostgreSQL.
 
-This keeps storage efficient while still allowing multimodal reasoning.
+This keeps storage efficient while preserving multimodal reasoning capability.
 
 ## Project Layout
 
@@ -272,12 +131,12 @@ src/finalrag/
   config.py
   models.py
   discovery/       file discovery
-  parsing/         PDF, HTML, CSV parsing
+  parsing/         PDF, HTML, and CSV parsing
   normalization/   parser-output normalization
   chunking/        hierarchical chunking
   embeddings/      Voyage and SPLADE embedding code
-  database/        PostgreSQL connection, schema, repository layer
-  retrieval/       dense, sparse, RRF, parent expansion, reranking
+  database/        PostgreSQL connection, schema, and repository layer
+  retrieval/       dense search, sparse search, RRF, parent expansion, reranking
   generation/      context building, citations, Gemini generation
   evaluation/      RAGAS evaluation
   graphing/        unified graph tracing utilities
@@ -314,8 +173,6 @@ data/
   eval/         evaluation questions and selected result files
 ```
 
-
-
 ## Database Design
 
 Core tables:
@@ -332,11 +189,11 @@ citations
 
 `documents` stores one row per source file.
 
-`parent_sections` stores larger context sections for expansion after retrieval.
+`parent_sections` stores larger context sections used for expansion after retrieval.
 
 `child_chunks` stores the indexed retrieval units, dense vectors, sparse vectors, table metadata, image paths, and citation metadata.
 
-For the medical CSV, `hospital_profiles` and `hospital_category_docs` avoid reconstructing hospital-level evidence from raw measure rows during every query.
+For the medical CSV workflow, `hospital_profiles` and `hospital_category_docs` prevent the system from rebuilding hospital-level evidence from raw measure rows during every query.
 
 ## Retrieval Flow
 
@@ -353,23 +210,16 @@ User query
   -> grounded answer with citations
 ```
 
-The main pipeline uses the original user query. Query rewriting is intentionally not required, which keeps retrieval behavior easier to inspect and evaluate.
+The main pipeline uses the original user query. Query rewriting is intentionally optional, keeping retrieval behavior easier to inspect and evaluate.
 
-## Setup
+## Prerequisites
 
-Create a local environment and install dependencies:
+- Python 3.10+
+- Docker and Docker Compose
+- PostgreSQL with pgvector, provided through the included Docker setup
+- API keys for the configured parsers, embedding providers, reranker, and generation model
 
-```powershell
-pip install -r requirements.txt
-```
-
-Create `.env` from `.env.example` and fill in local credentials:
-
-```powershell
-copy .env.example .env
-```
-
-Required services and keys:
+Required environment variables:
 
 ```text
 DATABASE_URL
@@ -381,7 +231,19 @@ GEMINI_API_KEY or GEMINI_API_KEY_1...
 
 Do not commit `.env`.
 
-## Local PostgreSQL + pgvector
+## Setup
+
+Install dependencies:
+
+```powershell
+pip install -r requirements.txt
+```
+
+Create your local environment file:
+
+```powershell
+copy .env.example .env
+```
 
 Start PostgreSQL with Docker:
 
@@ -389,13 +251,13 @@ Start PostgreSQL with Docker:
 docker compose up -d db
 ```
 
-Create the schema:
+Create the database schema:
 
 ```powershell
 python scripts/01_create_database.py
 ```
 
-Useful commands:
+Useful Docker commands:
 
 ```powershell
 docker compose ps
@@ -404,9 +266,9 @@ docker compose stop db
 docker compose start db
 ```
 
-Do not run `docker compose down -v` unless you intentionally want to delete the PostgreSQL volume.
+Avoid `docker compose down -v` unless you intentionally want to delete the PostgreSQL volume.
 
-## Build Pipeline
+## Build the Index
 
 Run the pipeline in order:
 
@@ -420,15 +282,18 @@ python scripts/06_index_chunks.py
 
 What each step does:
 
-```text
-02_discover_files.py      registers source files in PostgreSQL
-03_parse_all.py           parses PDF, HTML, and CSV sources
-04_normalize_elements.py  converts parser outputs into common elements
-05_create_chunks.py       creates parent sections and child retrieval chunks
-06_index_chunks.py        stores chunks, dense embeddings, SPLADE vectors, and HNSW indexes
-```
+| Script | Purpose |
+|---|---|
+| `02_discover_files.py` | Registers source files in PostgreSQL |
+| `03_parse_all.py` | Parses PDF, HTML, and CSV sources |
+| `04_normalize_elements.py` | Converts parser outputs into common elements |
+| `05_create_chunks.py` | Creates parent sections and child retrieval chunks |
+| `06_index_chunks.py` | Stores chunks, dense embeddings, SPLADE vectors, and HNSW indexes |
 
-If SPLADE vectors were generated externally, import them because splade required gpu so run them in google colab and add them  into project folder and send it to the database 
+## SPLADE Workflow
+
+SPLADE sparse vector generation can be GPU-heavy. If vectors are generated externally, such as in Google Colab, export them as JSONL and import them into the database:
+
 ```powershell
 python scripts/06_index_chunks.py --import-splade-jsonl path --splade
 ```
@@ -447,13 +312,13 @@ Run the full retrieval and generation pipeline:
 python scripts/07_query.py "What was Reliance Industries financial performance?"
 ```
 
-Fast mode uses smaller retrieval limits but still keeps Voyage reranking:
+Use fast mode for smaller retrieval limits while still keeping Voyage reranking:
 
 ```powershell
 python scripts/07_query.py "What was Reliance Industries financial performance?" --fast
 ```
 
-Inspect retrieval without Gemini:
+Inspect retrieval without Gemini generation:
 
 ```powershell
 python scripts/07_query.py "What was Reliance Industries financial performance?" --retrieval-only
@@ -467,7 +332,7 @@ python scripts/07_query.py "What was Reliance Industries financial performance?"
 
 ## Evaluation
 
-RAGAS metrics:
+RAGAS metrics used in this project:
 
 ```text
 answer_relevancy
@@ -504,30 +369,27 @@ Run all tests:
 python -m unittest discover -s tests -p "test_*.py"
 ```
 
-
 ## Current Scope
 
-This version is local-first.
+FinalRAG is currently a local-first research and engineering project with a CLI/notebook interface. The current version focuses on the ingestion, indexing, retrieval, generation, citation, and evaluation pipeline.
 
-No frontend.
-
-No FastAPI backend.
-
-No authentication.
-
-No cloud deployment.
-
-The interface is notebook or terminal based.
+Planned production-facing layers such as a frontend, FastAPI backend, authentication, and cloud deployment are outside the current scope.
 
 ## Why This Matters
 
 FinalRAG demonstrates the engineering details that matter in practical RAG systems:
 
-- handling mixed document formats
-- preserving source metadata
-- supporting text, tables, and images
-- combining semantic and lexical retrieval
-- using parent-child context expansion
-- grounding answers with citations
-- evaluating quality with RAGAS
-- keeping the pipeline reproducible with scripts and tests
+- Handling mixed document formats
+- Preserving source metadata
+- Supporting text, tables, and images
+- Combining semantic and lexical retrieval
+- Using parent-child context expansion
+- Grounding answers with citations
+- Evaluating quality with RAGAS
+- Keeping the pipeline reproducible with scripts and tests
+
+## Author
+
+**Roshaankandimalla**
+
+GitHub: [roshaankandimalla](https://github.com/roshaankandimalla)
